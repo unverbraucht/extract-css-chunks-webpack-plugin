@@ -1,11 +1,12 @@
 {
   "name": "extract-css-chunks-webpack-plugin",
-  "version": "4.9.0",
+  "version": "4.9.1",
   "description": "Extract CSS from chunks into stylesheets + HMR. Supports Webpack 4 + SSR",
   "license": "MIT",
   "author": "James Gillmore <james@faceyspacey.com>",
   "contributors": [
-    "Zack Jackson <zack@ScriptedAlchemy.com> (https://github.com/ScriptedAlchemy)"
+    "Zack Jackson <zack@ScriptedAlchemy.com> (https://github.com/ScriptedAlchemy)",
+    "Kevin Read <me@kevin-read.com> (https://github.com/unverbraucht)"
   ],
   "homepage": "http://github.com/faceyspacey/extract-css-chunks-webpack-plugin",
   "repository": {
@@ -30,7 +31,7 @@
     "css-hot-loader",
     "extract-css-chunks-webpack-plugin"
   ],
-  "main": "dist/cjs.js",
+  "main": "dist/index.js",
   "types": "index.d.ts",
   "engines": {
     "node": ">= 6.9.0"
